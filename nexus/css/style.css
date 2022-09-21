@@ -1,0 +1,903 @@
+/* starting navigation bar section*/
+
+* {
+
+    font-family: monospace;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-bar {
+    background-color: #5DCFFC;
+    padding: 20px 150px;
+    position: relative;
+    height: 550px;
+}
+
+.nav-bar .logo h3 {
+    color: white;
+    font-size: 21px;
+    font-family: cursive;
+
+
+}
+
+.nav-bar ul {
+    list-style: none;
+    top: 28px;
+    position: absolute;
+    top: 45px 30px;
+    left: 340px;
+    color: white;
+    font-size: 17px;
+
+}
+
+
+
+.nav-bar .free-trial {
+    float: right;
+    margin-top: -30px;
+
+}
+
+
+
+
+.nav-bar .free-trial button {
+    width: 120px;
+    height: 35px;
+    border-radius: 3px;
+    color: white;
+    background-color: #5ac2e4;
+    padding-right: 10p;
+    margin-right: 15px;
+    border: 1px solid white;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.nav-bar .laptop .left-text {
+    float: left;
+    margin-top: 135px;
+
+}
+
+
+.nav-bar .laptop .left-text h1 {
+    font-size: 35px;
+    color: white;
+
+
+}
+
+.nav-bar .laptop .left-text p {
+    color: white;
+    font-size: 12px;
+    padding-top: -13px;
+    margin-top: 18px;
+    line-height: 18px;
+}
+
+
+
+.nav-bar .laptop .btns .bluee {
+    width: 120px;
+    height: 35px;
+    border-radius: 7px;
+    color: white;
+    background-color: #5ac2e4;
+
+    border: 1px solid white;
+}
+
+
+.nav-bar .laptop .btns {
+    margin-top: 25px;
+
+}
+
+.nav-bar .laptop .btns .whitee {
+    width: 120px;
+    height: 35px;
+    border-radius: 3px;
+    margin-right: 15px;
+    border: 1px solid white;
+}
+
+
+
+.nav-bar .laptop .right-pic {
+    float: right;
+    margin-right: -125px;
+    margin-top: 100px;
+
+}
+
+.nav-bar .laptop .right-pic img {
+    width: 400px;
+    height: 325px;
+    border-radius: 20px;
+
+}
+
+/* starting header section*/
+
+.text-part .three-parts {
+    margin: 0px 128px;
+}
+
+.text-part .header {
+    text-align: center;
+    margin-top: 85px;
+
+}
+
+.text-part .header h2 {
+    font-size: 27px;
+    margin-bottom: -5px;
+}
+
+.text-part .header p {
+    font-size: 13px;
+    color: gray;
+    margin-top: 18px;
+    line-height: 19px;
+}
+
+.text-part .three-parts div {
+    display: inline-block;
+    margin-top: 55px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.text-part .three-parts div p {
+    line-height: 19px;
+    color: gray;
+    font-size: 12px;
+    margin-top: 10px;
+
+}
+
+.text-part .three-parts div h4 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.text-part .three-parts div i {
+    font-size: 17px;
+}
+
+/* start repeat section*/
+.repeat {
+    margin-top: 120px;
+    background-color: #EDF6FF;
+    height: 600px;
+
+}
+
+.repeat .head-btn {
+    padding-top: 75px;
+    text-align: center;
+
+}
+
+.repeat .head-btn .blueBtn {
+
+    background-color: #5ac2e4;
+    width: 210px;
+    height: 41px;
+    color: white;
+    border-radius: 3px;
+    margin-right: 15px;
+    border: 1px solid white;
+    font-size: 12px;
+
+}
+
+.repeat .head-btn button {
+    width: 210px;
+    height: 41px;
+    background-color: white;
+    border-radius: 3px;
+    margin-right: 15px;
+    border: 1px solid white;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+
+
+.repeat .left-side {
+
+    margin-top: 144px;
+    padding-left: 170px;
+
+}
+
+
+.repeat .left-side h2 {
+    font-size: 35px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.repeat .left-side p {
+    color: gray;
+    font-size: 13px;
+    padding-top: -13px;
+    margin-top: -12px;
+    line-height: 20px;
+
+}
+
+.repeat .left-side p span {
+    color: black;
+    font-weight: 600;
+
+}
+
+.repeat .left-side .btns .bluee {
+    width: 145px;
+    height: 38px;
+    border-radius: 3px;
+    color: white;
+    background-color: #55BAFC;
+    margin-right: 15px;
+    border: 1px solid white;
+
+}
+
+
+.repeat .left-side .btns {
+    margin-top: 25px;
+
+}
+
+
+.repeat .right-side {
+    float: right;
+    margin-right: 70px;
+    margin-top: 60px;
+    position: relative;
+
+}
+
+.repeat .right-side img {
+    width: 400px;
+    height: 325px;
+    border-radius: 20px;
+    position: absolute;
+    left: -503px;
+    top: -336px;
+}
+
+/* starting computer section*/
+.computer {
+    text-align: center;
+    margin-top: 200px;
+
+}
+
+.computer .text h2 {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: -1px;
+
+}
+
+.computer .text p {
+    font-size: 12px;
+    margin-top: 12px;
+    line-height: 18px;
+    color: gray;
+
+}
+
+.computer .pic img {
+    width: 645px;
+}
+
+/*starting picCode section*/
+
+.picCode {
+
+    background-color: #EDF6FF;
+    height: 550px;
+    margin-top: 32px;
+    padding-top: 10px;
+
+}
+
+.picCode .leftSide {
+
+    margin-top: 144px;
+    padding-left: 170px;
+
+}
+
+
+.picCode .leftSide h2 {
+    font-size: 35px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.picCode .leftSide p {
+    color: gray;
+    font-size: 13px;
+    padding-top: -13px;
+    margin-top: -12px;
+    line-height: 20px;
+
+}
+
+.picCode .leftSide p span {
+    color: black;
+    font-weight: 600;
+
+}
+
+.picCode .leftSide .btns .bluee {
+    width: 145px;
+    height: 38px;
+    border-radius: 3px;
+    color: white;
+    background-color: #55BAFC;
+    margin-right: 15px;
+    border: 1px solid white;
+
+}
+
+
+.picCode .leftSide .btns {
+    margin-top: 25px;
+
+}
+
+
+
+.picCode .rightSide {
+    float: right;
+    margin-right: 70px;
+    margin-top: 60px;
+    position: relative;
+
+}
+
+.picCode .rightSide img {
+    width: 400px;
+    height: 325px;
+    border-radius: 20px;
+    position: absolute;
+    left: -503px;
+    top: -336px;
+}
+
+.pricePlan {
+
+    margin-top: 75px;
+
+}
+
+.pricePlan .text {
+    text-align: center;
+}
+
+.pricePlan .text h2 {
+
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: -1px;
+
+}
+
+.pricePlan .text p {
+    font-size: 12px;
+    margin-top: 12px;
+    line-height: 18px;
+    color: gray;
+
+}
+
+.pricePlan .price {
+    margin: 50px 200px;
+    position: relative;
+}
+
+.pricePlan .price div {
+
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #edf6ff;
+}
+
+
+.pricePlan .price div h4 {
+    font-size: 15px;
+
+    width: 211px;
+    background-color: #edf6ff;
+    height: 60px;
+    padding: 22px;
+
+}
+
+.pricePlan .price div ul {
+    list-style: none;
+    line-height: 26px;
+    color: gray;
+    font-size: 12px;
+    padding: 20px;
+}
+
+.pricePlan .price div {
+    margin: 0 30px;
+    border-radius: 10px;
+}
+
+.pricePlan .price div div {
+    background-color: #edf6ff;
+    width: 150px;
+    height: 125px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+
+
+
+.pricePlan .price div div h5 sup {
+    font-size: 15px;
+    letter-spacing: -10.5px;
+}
+
+
+.pricePlan .price div div h5 {
+    font-size: 46px;
+    margin-left: -36px;
+
+
+
+}
+
+.pricePlan .price .basic span {
+    font-size: 11px;
+    margin-right: -90px;
+    font-weight: 900;
+    color: gray;
+    position: absolute;
+    top: 240px;
+    left: 161px;
+}
+
+.pricePlan .price .standard span {
+    font-size: 11px;
+    margin-right: -90px;
+    font-weight: 900;
+    color: gray;
+    position: absolute;
+    top: 240px;
+    left: 442px;
+}
+
+.pricePlan .price .ultimate span {
+    font-size: 11px;
+    margin-right: -90px;
+    font-weight: 900;
+    color: gray;
+    position: absolute;
+    top: 240px;
+    left: 725px;
+}
+
+.pricePlan .price .ultimate .colorDiv {
+    color: white;
+    background-color: #5ac2e4;
+}
+
+.pricePlan .price .ultimate .colorDiv span {
+    color: white;
+}
+
+.pricePlan .price .ultimate .colorDiv button {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+.pricePlan .price div div button {
+    width: 100px;
+    height: 35px;
+    border-radius: 3px;
+    color: white;
+    font-size: 10px;
+    background-color: #5ac2e4;
+    border: 1px solid white;
+    margin-top: 35px;
+    margin-top: 20px;
+}
+
+/* starting feedback section*/
+
+.feedback {
+    background-color: #edf6ff;
+    margin-top: 100px;
+    height: 500px;
+
+}
+
+.feedback .text {
+    text-align: center;
+    padding-top: 70px;
+
+}
+
+.feedback .text h2 {
+
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: -1px;
+
+}
+
+.feedback .text p {
+    font-size: 12px;
+    margin-top: 12px;
+    line-height: 18px;
+    color: gray;
+
+}
+
+.feedback .leftSide {
+    float: left;
+    margin-left: 170px;
+    margin-top: 62px;
+    background-color: white;
+    width: 440px;
+    height: 172px;
+    padding-top: 18px;
+    padding-left: 11px;
+
+
+}
+
+.feedback .leftSide .img {
+    float: left;
+}
+
+.feedback .leftSide img {
+    width: 85px;
+    border-radius: 50%;
+
+}
+
+
+.feedback .rightSide {
+    padding-top: 18px;
+    float: right;
+    margin-right: 170px;
+    margin-top: 62px;
+    background-color: white;
+    width: 440px;
+    height: 172px;
+    padding-left: 11px;
+
+}
+
+.feedback .rightSide .img {
+    float: left;
+}
+
+.feedback .rightSide img {
+    width: 75px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 5px;
+
+}
+
+.feedback .leftSide .analysis {
+    padding-top: 24px;
+
+}
+
+.feedback .leftSide .analysis {
+    padding-top: 24px;
+
+}
+
+.feedback .leftSide .analysis p {
+    font-size: 10px;
+    color: gray;
+    line-height: 16px;
+    margin-top: -16px;
+
+
+}
+
+.feedback .leftSide .analysis h4 {
+    margin-top: 15px;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+
+
+}
+
+
+.feedback .leftSide .analysis div {
+    margin-left: 82px;
+    font-size: 9px;
+    /* line-height: 14px; */
+    color: orange;
+    margin-top: 7px;
+
+}
+
+
+
+
+
+
+.feedback .rightSide .analysis {
+    padding-top: 24px;
+
+}
+
+.feedback .rightSide .analysis {
+    padding-top: 24px;
+
+}
+
+.feedback .rightSide .analysis p {
+    font-size: 10px;
+    color: gray;
+    line-height: 16px;
+    margin-top: -16px;
+
+
+}
+
+.feedback .rightSide .analysis h4 {
+    margin-top: 15px;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    margin-left: 85px;
+}
+
+
+.feedback .rightSide .analysis div {
+    margin-left: 82px;
+    font-size: 9px;
+    color: orange;
+    margin-top: 7px;
+
+}
+
+
+/* starting  changed section*/
+
+
+.changed {
+
+    height: 550px;
+    padding-top: 10px;
+
+}
+
+.changed .leftSide {
+    float: left;
+    margin-right: 70px;
+    margin-top: 60px;
+    position: relative;
+
+}
+
+.changed .leftSide img {
+    width: 400px;
+    height: 325px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 200px;
+    margin-top: 55px;
+
+
+}
+
+.changed .rightSide {
+
+    margin-top: 144px;
+    float: right;
+    margin-right: 160px;
+
+
+}
+
+
+.changed .rightSide h2 {
+    font-size: 35px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.changed .rightSide p {
+    color: gray;
+    font-size: 13px;
+    padding-top: -13px;
+    margin-top: -12px;
+    line-height: 20px;
+
+}
+
+.changed .rightSide p span {
+    color: black;
+    font-weight: 600;
+
+}
+
+.changed .rightSide .btns .bluee {
+    width: 145px;
+    height: 38px;
+    border-radius: 3px;
+    color: white;
+    background-color: #55BAFC;
+    margin-right: 15px;
+    border: 1px solid white;
+
+}
+
+
+.changed .rightSide .btns {
+    margin-top: 25px;
+
+}
+
+
+/* starting features section*/
+
+.features {
+    background-color: #3BACF0;
+    height: 340px;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    padding: 70px;
+}
+
+.features h3 {
+    font-size: 30px;
+    margin: 12px;
+
+}
+
+.features p {
+    font-size: 11px;
+    line-height: 21px;
+}
+
+.features button {
+    background-color: white;
+    width: 175px;
+    height: 41px;
+    color: black;
+    border-radius: 3px;
+    margin-right: 15px;
+    border: 1px solid white;
+    font-size: 12px;
+    font-weight: 900;
+    margin: 30px;
+
+}
+
+/* strating footer*/
+.footer {
+    background-color: black;
+    color: white;
+    height: 350px;
+    padding: 100px;
+    position: relative;
+
+}
+
+.footer div {
+    display: inline;
+    margin: 0 30px;
+}
+
+
+.footer .aboutMe h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+
+.footer .aboutMe p {
+    font-size: 10px;
+    color: gray;
+    line-height: 18px;
+}
+
+.footer .aboutMe .copy {
+    font-size: 10px;
+    color: gray;
+    margin-top: 20px;
+
+}
+
+.footer .newsLetter {
+    margin-left: 400px;
+    position: absolute;
+    top: 117px;
+
+}
+
+.footer .newsLetter h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer .newsLetter label {
+    font-size: 10px;
+    color: gray;
+}
+
+
+.footer .newsLetter input {
+    width: 290px;
+    height: 30px;
+    color: gray;
+    font-size: 12px;
+    padding-left: 10px;
+
+}
+
+.footer .newsLetter i {
+    position: absolute;
+    top: 72px;
+    background-color: #3bacf0;
+    right: 1px;
+    font-size: 12px;
+    /* width: 25px; */
+    /* height: 25px; */
+    padding: 9px;
+
+}
+
+
+.footer .followMe {
+    float: right;
+    margin-right: 130px;
+    margin-top: -114px;
+
+}
+
+.footer .followMe h4 {
+
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer .followMe p {
+    font-size: 10px;
+    color: gray;
+
+}
+
+.footer .followMe i {
+    margin-top: 15px;
+    font-size: 10px;
+    color: gray;
+
+}
